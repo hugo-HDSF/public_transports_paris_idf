@@ -10,11 +10,11 @@
     Calculates the shortest paths between two subway station in the Paris public transportation network (includes RER and Metro only).
     <br/>
     <br/>
-    <a href="https://github.com/hugo-HDSF/transports_paris_idf/transports_paths.svg"><strong>View Exemple »</strong></a>
+    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/blob/main/transports_paths.svg"><strong>View Exemple »</strong></a>
     .
-    <a href="https://github.com/hugo-HDSF/transports_paris_idf/issues">Report Bug</a>
+    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Report Bug</a>
     .
-    <a href="https://github.com/hugo-HDSF/transports_paris_idf/issues">Request Feature</a>
+    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Request Feature</a>
   </p>
 </p>
 
@@ -137,7 +137,7 @@ python --version
 1. Clone the repository
 
 ```sh
-git clone https://github.com/hugo-HDSF/PUBLIC_transports_paris_idf.git
+git clone https://github.com/hugo-HDSF/public_transports_paris_idf.git
 ```
 
 3. Create a virtual environment (optional). we recommend using poycharms built in virtual environment.
@@ -183,13 +183,13 @@ Set the weight of the edges:
 
 ## Roadmap
 
-See the [open issues](https://github.com/hugo-HDSF/transports_paris_idf/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/hugo-HDSF/public_transports_paris_idf/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/hugo-HDSF/transports_paris_idf/issues/new) to discuss it, or directly create a pull request
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/hugo-HDSF/public_transports_paris_idf/issues/new) to discuss it, or directly create a pull request
   after you edit the [*README.md*](README.md) file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
