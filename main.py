@@ -1,3 +1,4 @@
+# Import necessary libraries
 import heapq
 import json
 import math
@@ -11,6 +12,7 @@ from fuzzywuzzy import process
 
 # https://www.transilien.com/
 
+# Source and target stations
 source = "garibaldi"
 target = "mairie d'issy"
 multiple_path_options = True
@@ -20,15 +22,17 @@ node_weight = 5
 edge_weight = 50
 
 matplotlib.use("module://mplcairo.base")
-# Using Cairo background
+# Use Cairo background for the plot
 plt.rcParams['figure.facecolor'] = '#111111'
 
+# Function to get the color of the line
 def get_line_color(line_label):
     for line, color in line_colors.items():
         if line == line_label:
             return color
     return "black"
 
+# Function to check if an edge exists in the graph
 def edge_exists(G, station1, station2, label):
     if G.has_edge(station1, station2):
         for edge_data in G.get_edge_data(station1, station2).values():
@@ -36,9 +40,11 @@ def edge_exists(G, station1, station2, label):
                 return True
     return False
 
+# Function to calculate Euclidean distance between two points
 def euclidean_distance(a, b):
     return math.sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)
 
+# Function to patch the shortest path for any useless changes
 def patch_shortest_path(G, edge_labels, shortest_path):
     patched_labels = edge_labels.copy()
     prev_label = None
@@ -78,6 +84,7 @@ def patch_shortest_path(G, edge_labels, shortest_path):
                 z += 1
     return patched_labels
 
+# Function to get the shortest path between two stations in the graph
 def get_shortest_path(G, source, target):
     global AStarAndBellmanFord
     shortest_path_1, distance_1 = find_shortest_path(G, source, target)
@@ -100,6 +107,7 @@ def get_shortest_path(G, source, target):
                                            key=lambda x: x[0])
     return shortest_path
 
+# Function to get multiple shortest paths between two stations in the graph
 def get_multiple_shortest_paths(G, source, target):
     global AStarAndBellmanFord
     shortest_path_1, distance_1 = find_shortest_path(G, source, target)
@@ -118,6 +126,7 @@ def get_multiple_shortest_paths(G, source, target):
     shortest_path = dict(shortest_path_1.items() | shortest_path_R_1.items() | shortest_path_2.items() | shortest_path_R_2.items())
     return shortest_path
 
+# Function to find the shortest path between two stations in the graph
 def find_shortest_path(G, source, target):
     try:
         shortest_path, distance = a_star_or_bellman_ford_modified(G, source, target)
@@ -125,7 +134,7 @@ def find_shortest_path(G, source, target):
         return None  # Pas de chemins trouvé
     return shortest_path, distance
 
-# REDEFINITION OF A*(Star) algorithm AND Bellman-Ford algorithm
+# Function to redefine the A* and Bellman-Ford algorithms
 def a_star_or_bellman_ford_modified(G, source_node, target_node):
     # Initialize distances
     edge_labels = nx.get_edge_attributes(G, "line")
@@ -212,8 +221,10 @@ def a_star_or_bellman_ford_modified(G, source_node, target_node):
     # If the target node was not reached, return None
     return None
 
+# Main function
 if __name__ == '__main__':
 
+    # Load the JSON data file
     with open("updated_data.json", "rb") as file:
         raw_data = file.read()
         detected_encoding = chardet.detect(raw_data)["encoding"]
@@ -221,9 +232,12 @@ if __name__ == '__main__':
     with open("updated_data.json", encoding=detected_encoding) as file:
         data = json.load(file)
 
+    # Create the multi graph
     G = nx.MultiGraph()
 
+    # Define dark color for white font
     white_labels = ['2', '4', '11', '12', '14', '15']
+    # Define colors for each line
     line_colors = {
         "1": "#FFCE00",
         "2": "#0064B0",
@@ -279,6 +293,7 @@ if __name__ == '__main__':
     # this make sur BellmanFord and AStar are used for any path
     AStarAndBellmanFord = True
 
+    # Choose between single or multiple shortest paths
     # if not multiple_path_options, then we get the shortest path
     if not multiple_path_options:
         shortest_path = get_shortest_path(G, source, target)
@@ -286,6 +301,7 @@ if __name__ == '__main__':
     else:
         shortest_path = get_multiple_shortest_paths(G, source, target)
 
+    # Visualize the graph
     fig = plt.figure(figsize=(2000 / 96, 4000 / 96), dpi=96)  # 4K resolution
     fig.patch.set_facecolor('#111111')
     H = G.edge_subgraph(shortest_path)
