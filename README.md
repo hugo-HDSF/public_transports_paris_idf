@@ -74,7 +74,7 @@ stations and the lines.
 
 ## Data Source
 
-* [Data.Gouv](https://www.data.gouv.fr/fr/)
+* [Data.gouv.fr](https://www.data.gouv.fr/fr/)
 
 ### Transports List
 
@@ -211,6 +211,7 @@ Distributed under the MIT License.
 ## Acknowledgements
 
 * [Paris Nanterre University](https://www.parisnanterre.fr/)
+* [Data.gouv.fr](https://www.data.gouv.fr/fr/)
 * [Img Shields](https://shields.io/)
 * [Simple Icons](https://simpleicons.org/)
 * [Readme Generator](https://readme.shaankhan.dev/)
