@@ -176,7 +176,7 @@ set the weight of the changing line penality according to your preferences:
 Set the weight of the walking to nearest station reward (makes sur the algorithm considers station connections as easy paths, we recommend setting it to the sum of the node and edge weight to balance
 weight cost):
 
-```walking_to_nearest_station_reward = 20```
+```walking_to_nearest_station_reward = 55```
 
 Set the weight of the nodes:
 
