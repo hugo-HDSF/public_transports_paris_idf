@@ -17,7 +17,7 @@ source = "garibaldi"
 target = "mairie d'issy"
 multiple_path_options = True
 changing_line_penality = 300
-walking_to_nearest_station_reward = 20
+walking_to_nearest_station_reward = 55
 node_weight = 5
 edge_weight = 50
 
