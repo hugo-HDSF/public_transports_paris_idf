@@ -92,7 +92,6 @@ def get_shortest_path(G, source, target):
 
     if AStarAndBellmanFord:
         AStarAndBellmanFord = False
-
     else:
         AStarAndBellmanFord = True
 
@@ -378,5 +377,5 @@ if __name__ == '__main__':
     plt.style.use('ggplot')
     plt.axis("off")
     plt.tight_layout()
-    plt.savefig("transports_path.svg", format='svg', dpi=200, bbox_inches='tight')
+    plt.savefig("transports_paths.svg", format='svg', dpi=200, bbox_inches='tight')
     # plt.show()
