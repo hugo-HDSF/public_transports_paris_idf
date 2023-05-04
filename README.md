@@ -7,14 +7,19 @@
 <h3 align="center">Public Transports Paris IDF</h3>
 
   <p align="center">
-    Calculates the shortest paths between two subway station in the Paris public transportation network (includes RER and Metro only).
-    <br/>
-    <br/>
-    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/blob/main/transports_paths.svg"><strong>View Exemple »</strong></a>
-    .
-    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Report Bug</a>
-    .
-    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Request Feature</a>
+    <p align="center">
+      Calculates the shortest paths between two subway station in the Paris public transportation network 
+    </p>  
+    <p align="center">
+      (includes RER and Metro only).
+    </p>  
+    <p align="center">
+      <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/blob/main/transports_paths.svg"><strong>View Exemple »</strong></a>
+      .
+      <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Report Bug</a>
+      .
+      <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Request Feature</a>
+    </p>
   </p>
 </p>
 
