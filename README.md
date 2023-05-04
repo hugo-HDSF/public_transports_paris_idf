@@ -145,9 +145,9 @@ python --version
 git clone https://github.com/hugo-HDSF/public_transports_paris_idf.git
 ```
 
-3. Create a virtual environment (optional). we recommend using poycharms built in virtual environment.
+3. Create a virtual environment (optional). we recommend using pycharms built in virtual environment.
 
-4. Install the required packages. (all packages are listed in the main.py file)
+4. Install the required packages. (all packages are listed in the [main.py](main.py) file)
 
 ## Usage
 
