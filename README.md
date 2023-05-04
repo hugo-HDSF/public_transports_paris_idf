@@ -21,9 +21,9 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![Pycharm](https://img.shields.io/badge/-Python-000000?logo=pycharm&logoColor=white)
+![Pycharm](https://img.shields.io/badge/-Pycharm-000000?logo=pycharm&logoColor=white)
 ![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?logo=homebrew&logoColor=black)
-![.ENV](https://img.shields.io/badge/-.ENV-ECD53F?logo=dotenv&logoColor=black)
+![.ENV](https://img.shields.io/badge/-.env-ECD53F?logo=dotenv&logoColor=black)
 ![Json](https://img.shields.io/badge/-Json-000000?logo=json&logoColor=white)
 </div>
 <div align="center">
