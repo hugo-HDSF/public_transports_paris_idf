@@ -134,14 +134,14 @@ To get a local copy up and running, follow these simple steps:
 Ensure you have Python 3.9+ installed on your system. You can check your Python version by running:
 
 ```sh
-python --version
+$ python --version
 ```
 
 ### Installation
 
 1. Clone the repository
 ```sh
-git clone https://github.com/hugo-HDSF/public_transports_paris_idf.git
+$ git clone https://github.com/hugo-HDSF/public_transports_paris_idf.git
 ```
 3. Create a virtual environment (optional). we recommend using Pycharm built in virtual environment.
 >PyCharm makes it possible to use the virtualenv tool to create a project-specific isolated virtual environment. Follow [instructions](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html).
@@ -203,8 +203,8 @@ Distributed under the MIT License.
 
 ## Authors
 
-* **DA SILVA Hugo** - *Student - fullstack developer* - [Github](https://github.com/hugo-HDSF/)
-* **MOHAMMEDI Tayeb** - *Student - fullstack developer* - Github
+* **DA SILVA Hugo** - *Student - Fullstack Developer* - [Github](https://github.com/hugo-HDSF/)
+* **MOHAMMEDI Tayeb** - *Student - Fullstack Developer* - Github
 
 ## Acknowledgements
 
