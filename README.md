@@ -140,14 +140,13 @@ python --version
 ### Installation
 
 1. Clone the repository
-
 ```sh
 git clone https://github.com/hugo-HDSF/public_transports_paris_idf.git
 ```
-
-3. Create a virtual environment (optional). we recommend using pycharms built in virtual environment.
-
+3. Create a virtual environment (optional). we recommend using Pycharm built in virtual environment.
+>PyCharm makes it possible to use the virtualenv tool to create a project-specific isolated virtual environment. Follow [instructions](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) here.
 4. Install the required packages. (all packages are listed in the [main.py](main.py) file)
+>We recommend to try out the new Jetbrains UI and their new redesigned packaging manager support in Python Packages Pycharm tool window. Follow [instructions](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html) here.
 
 ## Usage
 
