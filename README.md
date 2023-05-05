@@ -213,3 +213,5 @@ Distributed under the MIT License.
 * [Img Shields](https://shields.io/)
 * [Simple Icons](https://simpleicons.org/)
 * [Readme Generator](https://readme.shaankhan.dev/)
+
+###### _Study Project | (BACHELOR) 2022-2023_
