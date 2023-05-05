@@ -25,7 +25,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/-Python_3.9-3776AB?logo=python&logoColor=white)
 ![Pycharm](https://img.shields.io/badge/-Pycharm-000000?logo=pycharm&logoColor=white)
 ![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?logo=homebrew&logoColor=black)
 ![.ENV](https://img.shields.io/badge/-.env-ECD53F?logo=dotenv&logoColor=black)
@@ -33,12 +33,10 @@
 </div>
 <div align="center">
 
-![Math](https://img.shields.io/badge/-Math-000000?logo=math&logoColor=white)
-![NetworkX](https://img.shields.io/badge/-NetworkX-FFD43B?logo=networkx&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-FFD43B?logo=matplotlib&logoColor=black)
-![FuzzyWuzzy](https://img.shields.io/badge/-FuzzyWuzzy-FFD43B?logo=fuzzywuzzy&logoColor=black)
-![Chardet](https://img.shields.io/badge/-Chardet-FFD43B?logo=chardet&logoColor=black)
-![heapq](https://img.shields.io/badge/-heapq-FFD43B?logo=heapq&logoColor=black)
+![NetworkX](https://img.shields.io/badge/-NetworkX_3.1-FFD43B?logo=networkx&logoColor=black)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib_3.7-FFD43B?logo=matplotlib&logoColor=black)
+![FuzzyWuzzy](https://img.shields.io/badge/-FuzzyWuzzy_0.18-FFD43B?logo=fuzzywuzzy&logoColor=black)
+![Chardet](https://img.shields.io/badge/-Chardet_5.1-FFD43B?logo=chardet&logoColor=black)
 </div>
 
 ## Table Of Contents
