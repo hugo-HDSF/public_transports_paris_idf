@@ -1,25 +1,24 @@
-<br/>
 <p align="center">
   <a>
     <img src="assets/logo.png" alt="Logo" width="100" >
   </a>
+</p>
 
-<h3 align="center">Public Transports Paris IDF</h3>
+<h1 align="center">Public Transports Paris IDF</h1>
 
+<p align="center">
   <p align="center">
-    <p align="center">
-      Calculates the shortest paths between two subway station in the Paris public transportation network.
-    </p>  
-    <p align="center">
-      (includes RER and Metro only)
-    </p>  
-    <p align="center">
-      <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/blob/main/transports_paths.svg"><strong>View Exemple »</strong></a>
-      .
-      <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Report Bug</a>
-      .
-      <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Request Feature</a>
-    </p>
+    Calculates the shortest paths between two subway station in the Paris public transportation network.
+  </p>  
+  <p align="center">
+    (includes RER and Metro only)
+  </p>  
+  <p align="center">
+    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/blob/main/transports_paths.svg"><strong>View Exemple »</strong></a>
+    .
+    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Report Bug</a>
+    .
+    <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Request Feature</a>
   </p>
 </p>
 
@@ -37,6 +36,8 @@
 ![FuzzyWuzzy](https://img.shields.io/badge/-FuzzyWuzzy_0.18-FFD43B?logo=fuzzywuzzy&logoColor=black)
 ![Chardet](https://img.shields.io/badge/-Chardet_5.1-FFD43B?logo=chardet&logoColor=black)
 </div>
+
+-----
 
 ## Table Of Contents
 
