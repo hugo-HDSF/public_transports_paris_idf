@@ -19,6 +19,8 @@
     <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Report Bug</a>
     .
     <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Request Feature</a>
+    .
+    <img src="https://img.shields.io/github/license/ucan-lab/docker-laravel" alt="License" height="15">  
   </p>
 </p>
 
