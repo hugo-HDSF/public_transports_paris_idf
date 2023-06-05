@@ -20,7 +20,7 @@
     .
     <a href="https://github.com/hugo-HDSF/public_transports_paris_idf/issues">Request Feature</a>
     .
-    <img src="https://img.shields.io/github/license/ucan-lab/docker-laravel" alt="License" height="15">  
+    <img src="https://img.shields.io/github/license/hugo-HDSF/public_transports_paris_idf" alt="License" height="15">  
   </p>
 </p>
 
